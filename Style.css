@@ -1,0 +1,128 @@
+body{
+    background: rgb(0, 0, 0);
+    font-family: Arial;
+}
+
+
+#Container{
+    width: 1300px;
+    margin: auto;
+}
+
+header{
+    background: rgb(112, 9, 104);
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    line-height: 100px;
+    font-family: Tahoma;
+    color: rgb(5, 228, 228);
+    text-shadow: 1px 1px 1px rgb(5, 228, 228);
+    border-bottom: 3px dashed rgb(1, 11, 43);
+}
+
+nav{
+    background: rgb(245, 11, 140);
+    height: 50px;
+    width: 90%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1em;
+    font-family: italic;
+}
+
+nav a {
+    text-decoration: none;
+    border: 3px dashed white;
+}
+
+nav ul li{
+    display:inline-block;
+    font-weight: normal;
+    font-size: 20px;
+    list-style: none;
+    margin-top: 15px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.clearfix{
+    clear: both;
+}
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background: cornsilk;
+    text-align: center;
+    padding: 10px;
+}
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    min-height: 400px;
+    background: rgb(173, 58, 77);
+    padding: 10px;
+    margin-left: 2em;
+}
+
+footer{
+    background: white;
+    color: black;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+h3{
+    color: rgb(255, 255, 255);
+}
+
+#Con{
+    background-image: url(IMG/Coffi.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 1000px;
+}
+
+#sal{
+    background: lightslategrey;
+    min-height: 800px;
+    margin: 30px;
+    text-align: center;
+    font-family: Verdana;
+
+}
+
+#tent{
+    background: pink;
+    min-height: 1200px;
+}
+
+table{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    text-align: center;
+    background-image: linear-gradient(to left, rgb(108, 18, 224),rgb(204, 8, 99));
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
+}
+
+th{
+    background-color: rgb(126, 5, 89);
+    color: white;
+}
+
+td,th{
+    border: 2px solid rgb(39, 5, 78);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
